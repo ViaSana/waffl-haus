@@ -8,8 +8,8 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ['Figtree', 'sans-serif'],
-      serif: ['Playfair Display', 'serif'],
+      sans: ['Karla', 'sans-serif'],
+      mono: ['Inconsolata', 'monospace'],
     },
     extend: {
       spacing: {
