@@ -38,6 +38,10 @@
     .button {
         @apply inline-block p-2 px-4;
     }
+
+    a:hover {
+        @apply bg-gradient-to-l from-[#8e4b75] to-[#ffcc02] 
+    }
 }
 
 @layer utilities {
