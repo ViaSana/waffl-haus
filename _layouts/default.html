@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     {% include head.html %}
+    <script src="/member-space.js"></script>
 </head>
 <body>
     {% include site_inline-styles.html %}
@@ -11,16 +12,6 @@
     {{content}}
 
     {% include site_footer.html %}
-
-    <!-- Memberspace -->
-    <script> var MemberSpace = window.MemberSpace || {"subdomain":"viasana"}; 
-        (function(d){ 
-            var s = d.createElement("script"); 
-            s.src = "https://cdn.memberspace.com/scripts/widgets.js"; 
-            var e = d.getElementsByTagName("script")[0]; 
-            e.parentNode.insertBefore(s,e); 
-        }(document));
-    </script>
 
     <!-- GSAP -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
