@@ -327,10 +327,11 @@ h1 {
   line-height: 2rem;
 }
 h2, h3 {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 h4 {
+  padding-left: 0.5rem;
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
@@ -439,12 +440,28 @@ a:hover {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
   --tw-gradient-to: #ffcc02 var(--tw-gradient-to-position);
 }
+.fixed {
+  position: fixed;
+}
+.bottom-0 {
+  bottom: 0px;
+}
+.left-0 {
+  left: 0px;
+}
+.right-0 {
+  right: 0px;
+}
 .col-span-3 {
   grid-column: span 3 / span 3;
 }
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 .block {
   display: block;
@@ -464,8 +481,14 @@ a:hover {
 .max-h-\[30vw\] {
   max-height: 30vw;
 }
+.max-h-\[40vh\] {
+  max-height: 40vh;
+}
 .min-h-100 {
   min-height: 100vh;
+}
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -473,8 +496,18 @@ a:hover {
 .justify-between {
   justify-content: space-between;
 }
+.justify-items-center {
+  justify-items: center;
+}
 .gap-2 {
   gap: 0.5rem;
+}
+.border {
+  border-width: 1px;
+}
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 .bg-black {
   --tw-bg-opacity: 1;
@@ -495,9 +528,6 @@ a:hover {
 .p-4 {
   padding: 1rem;
 }
-.p-10 {
-  padding: 2.5rem;
-}
 .px-5p {
   padding-left: 5%;
   padding-right: 5%;
@@ -506,15 +536,36 @@ a:hover {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.pl-4 {
+  padding-left: 1rem;
+}
 .text-center {
   text-align: center;
 }
 .italic {
   font-style: italic;
 }
+.text-\[\#cc71ab\] {
+  --tw-text-opacity: 1;
+  color: rgb(204 113 171 / var(--tw-text-opacity));
+}
+.text-\[\#ffcc02\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 204 2 / var(--tw-text-opacity));
+}
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.underline {
+  text-decoration-line: underline;
+}
+.opacity-60 {
+  opacity: 0.6;
 }
 .mx-scrn {
   margin-left: auto;
