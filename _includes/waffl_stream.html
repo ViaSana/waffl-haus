@@ -1,9 +1,10 @@
 <section class="">
+  <h3 class="text-left text-slate-400">Event Stream</h3>
   {% for event in site.data.events %}
-  <div class="grid grid-cols-2 py-4 my-2 text-white border border-white justify-items-center">
+  <div class="grid grid-cols-2 py-4 my-2 text-white border border-white justify-items-center bg-slate-800">
     <div class="p-4">
       <h2 class="underline">{{event.name}}</h2>
-      <h4 class="text-[#ffcc02]">{{event.location}}</h4>
+      <h4 class="text-[#ffcc02] max-w-xs">{{event.location}}</h4>
       <h4 class="text-[#cc71ab] pl-4">{{event.time}}</h4>
 
     </div>
@@ -11,4 +12,6 @@
     <a href="{{event.link}}"><img class="max-h-[40vh]" src="{{event.poster}}"></a>
   </div>
   {% endfor %}
+  <div class="text-right text-slate-500">sign up ya turkies...</div>
+
 </section>
