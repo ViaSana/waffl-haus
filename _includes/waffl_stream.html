@@ -3,7 +3,7 @@
   {% for event in site.data.events %}
   <div class="grid grid-cols-2 py-4 my-2 text-white border border-white justify-items-center bg-slate-800">
     <div class="p-4">
-      <h2 class="underline">{{event.name}}</h2>
+      <a href="{{event.link}}"></a><h2 class="underline">{{event.name}}</h2></a>
       <h4 class="text-[#ffcc02] max-w-xs">{{event.location}}</h4>
       <h4 class="text-[#cc71ab] pl-4">{{event.time}}</h4>
 
