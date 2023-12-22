@@ -18,11 +18,8 @@
 #   poster: assets/images/poster/trav-gamenight.png
 #   time: Nov. 17 around 7pm
 #   location: Seagirt Court
-
-- name: 3rd Annual Friendsgiving
-  link: https://docs.google.com/spreadsheets/d/1--XHlAZZ5uPiuGAZV4Wm4EVlCufXTWze4nUloi3EThw/edit?usp=sharing
-  poster: assets/images/poster/friendsgivin.png
-  time: Dec. 3 All Day
-  location: Bigg's Grande MoJo Dojo Pacfic Beach Beach House
-
-  
+# - name: 3rd Annual Friendsgiving
+#   link: https://docs.google.com/spreadsheets/d/1--XHlAZZ5uPiuGAZV4Wm4EVlCufXTWze4nUloi3EThw/edit?usp=sharing
+#   poster: assets/images/poster/friendsgivin.png
+#   time: Dec. 3 All Day
+#   location: Bigg's Grande MoJo Dojo Pacfic Beach Beach House

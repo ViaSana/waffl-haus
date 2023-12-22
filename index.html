@@ -13,24 +13,31 @@ seo:
 <section class="bg-black min-h-100">
     <div class="mx-scrn">
         <div class="aspect-square max-h-[30vw] bg-contain bg-no-repeat bg-center mx-auto" style="background-image: url(assets/images/waffl-knot.png);"></div>
-        <h1 class="p-4 text-center text-white animate-from-bottom">Welcome to Waffl.Haus</h1>
+        <h1 class="p-2 text-center text-white animate-from-bottom">Welcome to Waffl.Haus</h1>
     </div>
 
+    <!-- 
     <section class="text-center text-white">
-            <a href="https://jzjrp6loamk.typeform.com/to/Nny4Szu9">
+            <a href="https://jzjrp6loamk.typeform.com/to/Nny4Szu9" rel="nofollow">
                 <div class="container mx-auto rounded-xl bg-slate-400">
                     <span class="block text-2xl">Take Travis' survey on Death</span>Complete to enter for a $50 gift card
                 </div>
             </a>
-    </section>
-
-    <!-- <section class="text-center text-white">
-        <a href="">
-            <div class="container mx-auto rounded-xl bg-slate-400">
-                <span class="block text-2xl">Catan</span>who want's to play?
-            </div>
-        </a>
     </section> -->
+
+    <section class="max-w-2xl mx-auto text-center text-white">
+            <div class="container mx-auto rounded-xl bg-slate-400">
+                <a href="https://catanuniverse.com/en/" rel="nofollow">
+                    <span class="block text-2xl">Merry Catan-mas</span>who want's to play?
+                </a>
+            </div>
+            <div class="grid py-6">
+                <h2>Friend's List</h2>
+                {% for p in site.data.catan.players %}
+                    <span>{{p}}</span>
+                {% endfor %}
+            </div>
+    </section>
 
     {% include waffl_stream.html %}
 
